@@ -5,26 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Megic Trevel</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="external.css">
     <script src="script.js" defer></script>
 </head>
 <body>
     <div class="wrap">
         <div class="img_section"><img src="TOP Form Project.png" alt="a cool image"></div>
 
-        <div class="form_section">
+        <div class="content">
+
             <div class="intro">
-                <h1>Welcome to Megic Travel!</h1>
-            </div>
-            <div class="fsection">
-                <form action="" class="myform">
-                    <label for="uname">Username</label>
-                    <label for="pwd">Password</label>
-                    <label for="confirmpwd">Confirm Password</label>
-                    <input type="text" id="uname">
-                    <input type="text" id="pwd">
-                    <input type="text" id="confirmpwd">
+                <section class="heading">
+                <h1>Welcome to Megic Travel</h1> 
+                <p>If you dont try this out you won't get a 4.0 GPA, ignore if you are too old.</p>
+
+                </div>
+                
+            </section>
+            <div class="formdiv">
+                <form action="POST" class="form">
+
+                    <div class="opt">
+                        <lable for="username">Username</lable>
+                        <input type="text" name="uname" id="username" #username="" placeholder="Username">
+                    </div>
+                    <div class="opt">
+                        <lable for="mail">Email</lable>
+                        <input type="text" name="mail" id="mail" placeholder="Email">
+                    </div>
+                    <div class="opt">
+                        <lable for="phone">Phone number</lable>
+                        <input type="number" name="phone" id="phone" placeholder="Phone Number">
+                    </div>
+                    <div class="opt">
+                        <lable for="pwd">Password</lable>
+                        <input type="text" name="pwd" id="pwd" placeholder="Password">
+                    </div>
+                    <div class="opt">
+                        <lable for="cpwd">Confirm Password</lable>
+                        <input type="text" name="cpwd" id="cpwd" placeholder="Confirm Password">
+                    </div>
+
+                    
+                 
                 </form>
+
             </div>
+            <button type="submit" class="button-85">Submit</button>
         </div>
     </div>
 </body>
