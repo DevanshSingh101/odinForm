@@ -1,7 +1,15 @@
 input:invalid{
     border-color: red;
+    outline: none;
+}
+
+input:valid{
+    border-color: rgb(0, 255, 4);
+    outline: none;
 }
 
 input:focus{
-    border: 0.0001rem solid blue;
+    border-color: blue;
+    outline: none;
+    /* background-color: aqua; */
 }

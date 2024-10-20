@@ -37,9 +37,6 @@ img{
     
 }
 
-input{
-    
-}
 
 .intro{
     flex-direction: column;
@@ -50,6 +47,7 @@ h1{
     font-size: 5rem;
 }
 
+
 input{
     color: #ffffff;
     background-color: black;
@@ -59,6 +57,7 @@ input{
     border-radius: 0.5rem;
     padding-left: 1rem;
     margin-top: 0.3rem;
+    outline: none;
 }
 .formdiv{
     box-shadow: 0 0 50rem 0.001rem red;
@@ -66,9 +65,7 @@ input{
     border-radius: 2rem;    
     width:fit-content;
 }
-.form{
 
-}
 
 .inp2{
     flex-direction: row;
