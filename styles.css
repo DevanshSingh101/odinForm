@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    display: flex;
+}
+
+.wrap{
+    display: flex;
+}
+
+img{
+    width: auto;
+    height: 100vh;
+}
+
+.form_section {
+
+    flex-direction: column;
+
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+}
