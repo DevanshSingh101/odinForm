@@ -1,0 +1,7 @@
+input:invalid{
+    border-color: red;
+}
+
+input:focus{
+    border: 0.0001rem solid blue;
+}
