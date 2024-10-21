@@ -25,7 +25,6 @@ img{
 .content {
     flex-direction: column;
     padding:4rem ;
-    border: 1px solid yellow;
     justify-content: start;
       
 }
